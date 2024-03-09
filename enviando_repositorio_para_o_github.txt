@@ -1,0 +1,46 @@
+
+Vamos em nosso GitHub , criamos uma novo repositorio;
+
+REPOSITORY NAME = NOME DO REPOSITORIO;
+DESCRIPTION = DESCRIÇÃO DESSE PROJETO;
+
+LOGO EM BAIXO DA DESCRIPTION, VAMOS PODER UTILIZAR REPOSITORIOS PUBLICOS OU PRIVADO;
+
+E POR ULTIMOS TEMOS ALGUMAS OPÇÕES, QUE SÃO ELAS :
+
+README = É UM ARQUIVO QUE VAI EXPLICAR O QUE TEM DENTRO DESSE REPOSITORO, ELE DA UMA DESCRIÇÃO QUE 
+TEM DETRO DESSE PROJETO.
+
+ADD .GITIGNORE = É UM ARQUIVO QUE VAMOS ADICIONAR PARA IGNORAR OUTROS ARQUIVOS QUE NÃO QUEREMOS 
+QUE MONITORE.
+
+LICENSE = É QUANDO TEMOS UM SOFTWARE , E QUEREMOS ATRIBUIR UMA LICENSA A ELE, COMO UMA CÓPIA ,
+POR EXEMPLO PODEMOS COLOCAR UMA LICENSA "MIT", AI O PROJETO ESTA CONDICIONADO A ELA, SE ALGUÉM 
+FIZER ALGO ERRADO, QUE NÃO CONDIZ COM A LICENSA "MIT", A GENTE PODE CONDICIONAR ELA E O USUÁRIO ,
+SER PUNIDO DE ALGUMA FORMA.
+
+DEPOIS DE TUDO ISSO , DAMOS UM "CREATING REPOSITORY..."
+
+-------------------------------------------------------------------------------------------------------
+
+
+DEPOIS DE CLICAR NO CREATING, O SITE VAI NOS REDIRECIONAR ATÉ O PROXIMO PASSO, 
+QUE SÃO AS INSTRUÇÕES:
+
+DEPOIS SO SEGUIR O PASSO A PASSO;
+
+                …or create a new repository on the command line
+                echo "# AA" >> README.md
+                git init
+                git add README.md
+                git commit -m "first commit"
+                git branch -M main
+                git remote add origin https://github.com/Erick-MatheuS/AA.git
+                git push -u origin main
+
+
+
+
+
+
+Primeira mente, usamos o comando "GIT INIT" em nosso projeto;
