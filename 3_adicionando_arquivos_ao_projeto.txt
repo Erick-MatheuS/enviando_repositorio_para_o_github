@@ -1,0 +1,24 @@
+● Para adicionar arquivos novos a um projeto utilizamos: git add
+● Podemos adicionar um arquivo específico como também diversos de
+uma vez só;
+● Somente adicionando arquivos eles serão monitorados pelo git;
+● Ou seja, se não adicionar ele não estará no controle de versão;
+● É interessante utilizar este comando de tempos em tempos para não
+perder algo por descuido;
+
+PASSO A PASSO:
+
+PRIMEIRAMENTE CRIAMOS UM NOVO ARQUIVOS;
+LOGO EM SEGUIDA DAMOS UM GIT STATUS;(vamos ver que o arquivo  vai estar em vermelho);
+COMANDO GIT ADD + "NOME DO ARQUIVO";
+COMANDO GIT STATUS;nosso arquivo que adicionamos foi alterado de 'UNTRACKED' para 'CHANGES TO BE COMMITED'
+
+PARA NOSSO ARQUIVO 3_CSS/STYLE.CSS, FAREMOS DA SEGUINTE MANEIRA:
+
+GIT STATUS
+GIT ADD .\3_CSS\STYLE.CSS
+
+
+>>>>>>>PARA ADICIONAR TODOS OS ARQUIVOS DE UMA VEZ SO, FAREMOS ASSIM:
+
+(((((((((((GIT ADD .)))))))))))

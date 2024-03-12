@@ -1,0 +1,10 @@
+Primeiramente criamos esse arquivo novo "verificando_alteracoes".
+
+depois observamos que com o git status, ele tem algo a ser adicionado,
+ele nos vai mostrar que tem arquivos "UNTRACKED".
+O que são arquivos UNTRECKED ? 
+É quando o arquivo não esta sendo mapeado pelo git, e ele nos sugere dar
+um git add , para ele poder verificar quais mudanças estão sendo adicionadas
+a este arquivo.
+
+
