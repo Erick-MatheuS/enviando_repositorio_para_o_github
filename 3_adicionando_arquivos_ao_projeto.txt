@@ -22,3 +22,7 @@ GIT ADD .\3_CSS\STYLE.CSS
 >>>>>>>PARA ADICIONAR TODOS OS ARQUIVOS DE UMA VEZ SO, FAREMOS ASSIM:
 
 (((((((((((GIT ADD .)))))))))))
+
+
+
+Acabou <:
