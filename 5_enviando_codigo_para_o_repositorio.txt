@@ -1,0 +1,13 @@
+● Quando finalizamos uma funcionalidade nova, enviamos o código ao 
+repositório remoto, que é código-fonte;
+● Esta ação é feita pelo git push
+● Após esta ação o código do servidor será atualizado baseando-se 
+no código local enviado
+
+A parte mais clara , quando percebemos que precisamos enviar nossos arquivos, é quando
+damos o comando GIT STATUS, e vemos que esta tudo certo; esse é o estado ideal para enviar 
+códigos.
+
+
+
+GIT PUSH = enviar arquivos para o github;
