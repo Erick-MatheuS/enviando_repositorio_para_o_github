@@ -1,0 +1,13 @@
+● É comum também ter que sincronizar o local com as mudanças do 
+remoto;
+● Esta ação é feita pelo git pull
+● Após o comando serão buscadas atualizações, se encontradas elas 
+serão unidas ao código atual existente na nossa máquina
+
+
+
+Git pull = receber arquivos;
+(se e gente der git pull, e nos aparecer a seguinte MENSAGEM: """"Already up to date""""
+significa que nosso arquivo ja esta atualizado).
+
+<<<É DE SUMA IMPORTANCIA QUE A GENTE DE ESSE COMANDO FREQUENTEMENTE, PARA VER SE VEIO ALGUMA COISA NOVA NO PROJETO >>>
