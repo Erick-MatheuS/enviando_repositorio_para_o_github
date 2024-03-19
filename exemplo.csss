@@ -1,0 +1,22 @@
+● Com o comando git mv podemos renomear um arquivo;
+● O mesmo também pode ser movido para outra pasta;
+● E isso fará com que este novo arquivo seja monitorado pelo git;
+● O arquivo anterior é excluído;
+
+
+
+
+
+COMO MOVER UM ARQUIVO PARA UMA PASTA:
+
+git mv exemplo.csss 11_renomeando_arquivos/exemplo.css
+
+
+
+COMO RENOMEAR UM ARQUIVO:
+
+git mv 11_renomeando_arquivos/exemplo.css 11_renomeando_arquivos/exemplo_renomear_arquivos.txt
+
+git commit -a -m "arquivo renomeado com sucesso"
+
+git push

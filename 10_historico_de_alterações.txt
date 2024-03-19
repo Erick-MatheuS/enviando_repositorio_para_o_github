@@ -2,3 +2,19 @@
 ● O comando para este recurso é git log
 ● Você receberá uma informação dos commits realizados no projeto até 
 então;
+
+
+Neste exemplo eu criei o arquivo "11_renomeandoarquivo.txt" escrito todo junto.
+Coloquei ele junto com os outros arquivos, mas para ficar um bom exemplo para renomear e mover 
+o arquivo para essa aula, criei uma pasta com o mesmo nome do arquivo.
+
+Como renomear arquivo:
+
+
+
+
+Como mover um arquivo para uma pasta:
+
+git mv 11_renomeandoarquivo 11_renomeando_arquivo/11_renomeandoarquivo
+
+
