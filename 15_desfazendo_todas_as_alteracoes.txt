@@ -1,26 +1,15 @@
-lorem● Com o comando git reset podemos resetar as mudanças feitas
-● Geralmente é utilizado com a flag --hard
-● Todas as alterações commitadas e também as pendentes serão 
-excluídas● Com o comando git reset podemos resetar as mudanças feitas
-● Geralmente é utilizado com a flag --hard
-● Todas as alterações commitadas e também as pendentes serão 
-excluídas● Com o comando git reset podemos resetar as mudanças feitas
-● Geralmente é utilizado com a flag --hard
-● Todas as alterações commitadas e também as pendentes serão 
-excluídas● Com o comando git reset podemos resetar as mudanças feitas
-● Geralmente é utilizado com a flag --hard
-● Todas as alterações commitadas e também as pendentes serão 
-excluídas● Com o comando git reset podemos resetar as mudanças feitas
-● Geralmente é utilizado com a flag --hard
-● Todas as alterações commitadas e também as pendentes serão 
-excluídas● Com o comando git reset podemos resetar as mudanças feitas
-● Geralmente é utilizado com a flag --hard
-● Todas as alterações commitadas e também as pendentes serão 
-excluídas
-
-
-
 ● Com o comando git reset podemos resetar as mudanças feitas
 ● Geralmente é utilizado com a flag --hard
 ● Todas as alterações commitadas e também as pendentes serão 
 excluídas
+
+
+Passo a Passo:
+
+Observação: Vamos pensar no seguinte caso, ja temos um projeto encaminhado, ja mandado com push.
+ele esta na metade. Hoje começamos a mexer com ele, fizemos 5 linhas de código,
+mas não era isso que deveriamos ter feito, se a gente der o "GIT RESET --HARD",  ele vai apagar 
+o código feito por nos, sem problema algum.
+
+O QUE NÃO PODEMOS FAZER É , PEGAR ESSE CÓDIGO E DAR UM PUSH, E DEPOIS TENTAR DAR UM 
+"GIT RESET --HARD", PORQUE NÃO VAI FUNCIONAR
