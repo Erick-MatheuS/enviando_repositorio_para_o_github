@@ -8,3 +8,4 @@ um git add , para ele poder verificar quais mudanças estão sendo adicionadas
 a este arquivo.
 
 
+Deus é fiel;
