@@ -12,4 +12,11 @@ mas não era isso que deveriamos ter feito, se a gente der o "GIT RESET --HARD",
 o código feito por nos, sem problema algum.
 
 O QUE NÃO PODEMOS FAZER É , PEGAR ESSE CÓDIGO E DAR UM PUSH, E DEPOIS TENTAR DAR UM 
-"GIT RESET --HARD", PORQUE NÃO VAI FUNCIONAR
+"GIT RESET --HARD", PORQUE NÃO VAI FUNCIONAR.
+
+
+
+---------------------------------------------------------------------------------------
+Comando git reset --hard origin/master = serve para resetar o estado de algum branch 
+com outro, ai temos a pareação, e perdemos todo o código que a gente fez.
+---------------------------------------------------------------------------------------

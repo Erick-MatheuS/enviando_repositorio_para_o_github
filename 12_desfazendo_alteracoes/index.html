@@ -9,14 +9,35 @@
 
     <!-- 
 
+
+        ----------IMPORTANTE-----------
+
+            NÃO UTILIZAR ESSE COMANDO QUANDO QUEREMOS REMOVER SÓ UMA PARTE QUE A GENTE ALTEROU
+            O CHECKOUT TEM QUE SER USADO COM CAIDADO, A GENTE QUER REMOVER TUDO QUE A GENTE FEZ
+            CONFORME O QUE TEMOS ELE NA MASTER / REPOSITORIO
+
+
         ● O arquivo modificado pode ser retornado ao estado original;
         ● O comando utilizado é o git checkout
         ● Após a utilização do mesmo o arquivo sai do staging;
         ● Caso seja feita uma próxima alteração, ele entra em staging novamente;
 
+        Primeiros passa para entender bem como funciona :
+
+        - Modifique qualquer arquivo;
+        - Se a gente simplesmente, pegar e apagar essa alteração (como se fosse um CTRL + Z),
+        ele vai apagar sim, mas o git sabe que esse arquivo foi modificado.
+        - Se dermos um GIT STATUS, a gente vai ver que esse arquivo esta em "MODIFIED";
 
 
+        COMO FAZER PARA ESSE ARQUIVO PARECER QUE NÃO TEVE ALTERAÇÕES:
 
+        -  git checkout 12_desfazendo_alteracoes/index.html 
+        Se deu certo, ele vai nos mostrar uma mensagem, "Updated..."
+
+
+        O GIT CHECKOUT serve para remover tudo desnecessario que a gente não quer mais, vamos
+        resetar o arquivo de fato;
 
 
 
@@ -24,8 +45,8 @@
      -->
 
     <h1>oi</h1>
-    <h2>tudo bem?</h2>
-    <h3>tchau</h3>
+    <h2>tudo bem??</h2>
+    <h3>ttchauu</h3>
     
 </body>
 </html>
