@@ -1,0 +1,35 @@
+● Com o comando git mv podemos renomear um arquivo;
+● O mesmo também pode ser movido para outra pasta;
+● E isso fará com que este novo arquivo seja monitorado pelo git;
+● O arquivo anterior é excluído;
+
+Para renomear um arquivo com o nome  errado. Fazemos assim :  
+
+ 
+
+Git mv     css/banerinicia.css        css/banner_inicia.css 
+
+ 
+
+Vamos supor que criamos um arquivo .css fora da nossa pasta CSS, e com isso
+queremos por esse arquivo dentro dessa pasta(mover ele para esta pasta), como fazemos: 
+
+-criar um arquivo qualquer; 
+
+Git status 
+
+Git add. 
+
+Git commit –a –m "" 
+
+Git push 
+
+ Git mv rodape.css css/rodape.css 
+ ou 
+ git mv 11_renomeando_arquivos/exemplo_renomear_arquivos.txt 11_renomeando_arquivos/ex_renomear.txt
+
+Git status 
+
+Git commit –a –m "Colocando o arquivo css na pasta certa" 
+
+Git push 
